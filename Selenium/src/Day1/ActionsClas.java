@@ -31,7 +31,7 @@ public class ActionsClas {
 		WebElement cs=driver.findElement(By.xpath("(//a[text()='Customer Service'])[1]"));
 		
 		driver.findElement(By.xpath("(//input[@type='submit'])[2]")).click();
-		a.doubleClick(cs).perform();
+		a.doubleClick(cs).perform();//double click
 
 		
 		
